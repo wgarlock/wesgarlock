@@ -1,0 +1,1 @@
+SITE_OWNER_GROUP_NAME = "Site Owners"
