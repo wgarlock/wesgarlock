@@ -1,0 +1,28 @@
+recursive-include wesgarlock/base/*.xlsx
+recursive-include wesgarlock/base/locale *.mo
+recursive-include wesgarlock/base/templates *.jinja *.txt *.html
+recursive-include wesgarlock/base/static *.*
+recursive-exclude wesgarlock/base/static *.map
+recursive-include wesgarlock/blog/*.xlsx
+recursive-include wesgarlock/blog/locale *.mo
+recursive-include wesgarlock/blog/templates *.jinja *.txt *.html
+recursive-include wesgarlock/blog/static *.*
+recursive-exclude wesgarlock/blog/static *.map
+recursive-include wesgarlock/frontauth/*.xlsx
+recursive-include wesgarlock/frontauth/locale *.mo
+recursive-include wesgarlock/frontauth/templates *.jinja *.txt *.html
+recursive-include wesgarlock/frontauth/static *.*
+recursive-exclude wesgarlock/frontauth/static *.map
+recursive-include wesgarlock/search/*.xlsx
+recursive-include wesgarlock/search/locale *.mo
+recursive-include wesgarlock/search/templates *.jinja *.txt *.html
+recursive-include wesgarlock/search/static *.*
+recursive-exclude wesgarlock/search/static *.map
+recursive-include wesgarlock/tenant/*.xlsx
+recursive-include wesgarlock/tenant/locale *.mo
+recursive-include wesgarlock/tenant/templates *.jinja *.txt *.html
+recursive-include wesgarlock/tenant/static *.*
+recursive-exclude wesgarlock/tenant/static *.map
+
+
+

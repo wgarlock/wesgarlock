@@ -1,0 +1,4 @@
+Django==2.2.13
+wagtail==
+pytest==6.1.2
+pytest-django==4.1.0

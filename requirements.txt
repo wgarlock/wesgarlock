@@ -1,0 +1,87 @@
+--find-links wheels
+
+amqp==5.0.1               # via kombu
+anyascii==0.1.7           # via wagtail
+appconf==0.1.11
+appdirs==1.4.4            # via virtualenv
+argon2-cffi==20.1.0
+asgiref==3.3.1            # via django
+beautifulsoup4==4.8.2     # via wagtail
+billiard==3.6.3.0         # via celery
+boto3==1.16.25
+botocore==1.19.25         # via boto3, s3transfer
+celery==5.0.0
+certifi==2020.4.5.2       # via requests, sentry-sdk
+cffi==1.14.0              # via argon2-cffi
+cfgv==3.2.0               # via pre-commit
+chardet==3.0.4            # via requests
+click==7.1.2              # via celery, click-didyoumean, click-repl
+click-didyoumean==0.0.3   # via celery
+click-repl==0.1.6         # via celery
+contextvars==2.4
+distlib==0.3.1            # via virtualenv
+dj-database-url==0.5.0
+django==3.1.3
+django-appconf==1.0.4
+django-cors-headers==3.2.0
+django-environ==0.4.5
+django-filter==2.4.0      # via wagtail
+django-jinja==2.7.0
+django-modelcluster==5.1  # via wagtail
+django-redis==4.12.1
+django-rest-auth==0.9.5
+django-storages==1.10.1
+django-taggit==1.3.0      # via wagtail
+django-treebeard==4.3.1   # via wagtail
+djangorestframework==3.12.1  # via django-rest-auth, wagtail
+draftjs-exporter==2.1.7   # via wagtail
+et-xmlfile==1.0.1         # via openpyxl
+filelock==3.0.12          # via virtualenv
+gunicorn==20.0.4
+html5lib==1.0.1           # via wagtail
+identify==1.5.10          # via pre-commit
+idna==2.9                 # via requests
+immutables==0.14          # via contextvars
+importlib-metadata==2.0.0  # via kombu, pre-commit, virtualenv
+importlib-resources==3.3.0  # via pre-commit, virtualenv
+jdcal==1.4.1              # via openpyxl
+jinja2==2.11.2            # via django-jinja
+jmespath==0.10.0          # via boto3, botocore
+kombu==5.0.2              # via celery
+l18n==2018.5              # via wagtail
+markupsafe==1.1.1         # via jinja2
+nodeenv==1.5.0            # via pre-commit
+openpyxl==3.0.5           # via tablib
+pillow==6.2.2             # via wagtail
+pre-commit==2.9.3
+prompt-toolkit==3.0.7     # via click-repl
+psycopg2-binary==2.8.5
+pycparser==2.20           # via cffi
+python-dateutil==2.8.1    # via botocore
+pytz==2020.1              # via celery, django, django-modelcluster, l18n
+pyyaml==5.1.2             # via appconf, pre-commit
+redis==3.5.3
+requests==2.24.0          # via wagtail
+s3transfer==0.3.3         # via boto3
+sentry-sdk==0.19.4
+six==1.15.0               # via argon2-cffi, click-repl, django-rest-auth, html5lib, l18n, python-dateutil, virtualenv
+soupsieve==2.0.1          # via beautifulsoup4
+sqlparse==0.3.1           # via django
+tablib[xls,xlsx]==2.0.0   # via wagtail
+toml==0.10.2              # via pre-commit
+unidecode==1.1.1          # via wagtail
+urllib3==1.25.9           # via botocore, requests, sentry-sdk
+vine==5.0.0               # via amqp, celery
+virtualenv==20.2.2        # via pre-commit
+wagtail==2.11.2
+wcwidth==0.2.5            # via prompt-toolkit
+webencodings==0.5.1       # via html5lib
+wesgarlock-app==0.0.10
+willow==1.4               # via wagtail
+xlrd==1.2.0               # via tablib
+xlsxwriter==1.3.7         # via wagtail
+xlwt==1.3.0               # via tablib
+zipp==3.2.0               # via importlib-metadata, importlib-resources
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools                # via gunicorn
